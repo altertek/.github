@@ -100,19 +100,18 @@ For most contributions, after your first pull request is accepted and merged, yo
 
 ## :memo: Writing Commit Messages
 
-Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
+Please write a great commit message using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary).
 
 1. Separate subject from body with a blank line
 1. Limit the subject line to 50 characters
-1. Capitalize the subject line
 1. Do not end the subject line with a period
-1. Use the imperative mood in the subject line (example: "Fix networking issue")
+1. Use the imperative mood in the subject line (example: "fix: networking issue")
 1. Wrap the body at about 72 characters
 1. Use the body to explain **why**, *not what and how* (the code shows that!)
-1. If applicable, prefix the title with the relevant component name. (examples: "[Docs] Fix typo", "[Profile] Fix missing avatar")
+1. If applicable, prefix the title with the relevant component name. (examples: "docs: Fix typo", "fix(profile) missing avatar")
 
 ```
-[TAG] Short summary of changes in 50 chars or less
+<type>[optional scope]: short summary of changes in 50 chars or less
 
 Add a more detailed explanation here, if necessary. Possibly give 
 some background about the issue being fixed, etc. The body of the 
