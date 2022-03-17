@@ -6,10 +6,10 @@ Altertek is a non-profit organisation whose aim is to promote alternatives in te
 
 The themes that we address through our actions:
 - Free software
-- Technological sobriety
+- Digital Sobriety
 - Decentralization
 - Digital sovereignty
-- Protection of privacy
+- Data Protection and Privacy
 
   
   
